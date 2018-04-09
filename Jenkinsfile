@@ -8,7 +8,7 @@ pipeline {
         }
         stage('test') {
         steps {
-           echo 'perl p1.pl'
+           bat 'perl p1.pl'
         }
         }
     }
