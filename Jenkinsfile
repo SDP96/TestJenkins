@@ -6,7 +6,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('Example') {
+        stage('test') {
         steps {
            echo 'perl p1.pl'
         }
